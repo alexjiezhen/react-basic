@@ -1,7 +1,8 @@
 import React from 'react';
+import './LogoutButton.css'
 
 export default function LogoutButton(props) {
     return (
-        <button type='text' onClick={props.logout}>Log Out</button>
+        <button className='LogoutButton' type='text' onClick={props.logout}>Log Out</button>
     )
 }

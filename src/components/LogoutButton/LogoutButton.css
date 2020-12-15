@@ -1,0 +1,10 @@
+.LogoutButton {
+    background-color: white;
+    color: black;
+    line-height: normal;
+    border-radius: 4px;
+    padding: 7px 17px;
+    font-weight: 400;
+    font-size: 1rem;
+    float: right;
+}

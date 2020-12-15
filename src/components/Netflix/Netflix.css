@@ -1,3 +1,15 @@
+* {
+  background: black;
+  color: white;
+}
+
 .grow {
     flex-grow: 1;
   }
+
+main {
+  padding: 1rem 2rem;
+  text-align: left;
+  background: black;
+  color: white;
+}

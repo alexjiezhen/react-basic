@@ -5,5 +5,9 @@ import logo from '../../assets/netflix-logo.svg';
 import './AppLogo.css';
 
 export default function AppLogo () {
-    return <img src={logo} alt='logo'></img>
+    return (
+        <div>
+            <img src={logo} alt='logo'></img>
+        </div>
+    );
 }

@@ -1,0 +1,10 @@
+.todo-input {
+    background-color: white;
+    color: black;
+}
+
+.todo-button {
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+}

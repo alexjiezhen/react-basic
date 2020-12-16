@@ -17,7 +17,7 @@ export default class Clock extends Component {
             this.setState({
                 datetime: new Date(),
             });
-            console.log(this.state.datetime);
+            //console.log(this.state.datetime);
         }, 1000);
     }
 

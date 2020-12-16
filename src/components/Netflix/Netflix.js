@@ -6,9 +6,8 @@ import LoginButton from '../LoginButton/LoginButton';
 import LogoutButton from '../LogoutButton/LogoutButton';
 import Clock from '../Clock/Clock';
 import Counter from '../Counter/Counter';
-import Form from '../Form/Form'
-import ToDoList from '../Form/ToDoList'
 import './Netflix.css';
+import Form from '../Form/Form';
 
 //Class Component (Smart Component)
 // need extend from Component provided by 'react' library
@@ -50,7 +49,6 @@ class Netflix extends Component {
                 <Counter/>
                 <br/>
                 <Form/>
-                <ToDoList/>
             </main>
         </>
         );

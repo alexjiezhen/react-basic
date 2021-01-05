@@ -36,16 +36,14 @@ export default class Form extends Component {
     render () {
         return(
             <>
-                <form>
-                    <input className='todo-input' type='text' 
-                    onChange={e => this.updateInput("newItem", e.target.value)} 
-                    value={this.state.newItem}/>{' '}
+                <input className='todo-input' type='text' 
+                onChange={e => this.updateInput("newItem", e.target.value)} 
+                value={this.state.newItem}/>{' '}
 
-                    <button className='todo-button' type='submit'
-                    onClick={() => this.addItem()}>
-                        Add Todo
-                    </button>
-                </form>
+                <button className='todo-button' type='submit'
+                onClick={() => this.addItem()}>
+                    Add Todo
+                </button>
                 <div>
                     <ul>
                         {this.state.list.map(item => {
